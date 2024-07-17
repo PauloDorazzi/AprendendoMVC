@@ -15,6 +15,8 @@ namespace MeuPrimeiroProjetoMVC.Controllers
 
         public IActionResult Index()
         {
+            ViewData["message"] = "Eu sou Paulo, tenho 20anos, moro em Ribeirão Preto, estudo ciência da computação";
+            ViewData["email"] = "dasilva@gmail.com";
             return View();
         }
 
